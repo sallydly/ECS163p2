@@ -1,0 +1,105 @@
+* {
+  font-family:Levenim MT, Calibri, sans-serif;
+}
+
+body {
+  background-color: #f5f5dc;
+}
+
+.txt {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+#bubble_chart {
+	width: 700px;
+	float: left;
+}
+
+#pie_chart {
+	width: 500px;
+	float: right;
+}
+
+
+div {
+  width: 1200px; 
+  margin: auto; 
+}
+
+u {
+  font-weight:bold;
+}
+
+#title {
+  font-family: Arial;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+h1, h5 {
+  text-align: center;
+}
+
+hr {
+  width: 70%;
+}
+
+.vquestion {
+  font-size: 16px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+}
+
+
+.caption {
+  width: 960px;
+  display: block;
+  margin: auto;
+  font-size: 14px;
+}
+
+svg {
+  padding: 14px 0px 14px 0px;
+  display: block;
+  margin: auto;
+}
+
+br {
+   display: block; 
+    content: ""; /* clears default height */
+    margin-top: 10px; /* change this to whatever height you want it */
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  padding: 2px;
+}
+
+#dataset {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.rect {
+  fill: orange;
+}
+
+.rect:hover {
+  fill: steelblue;
+}
+
+.tooltip {
+  width: 130px;
+	text-align: center;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 5px;
+}

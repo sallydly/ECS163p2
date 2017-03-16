@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<html>
+<head>
+  <title> Project 2 - Sally Ly</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<h1> Visualizing Louisville Government Salaries - Sally Ly </h1>
+<h5> Source: <a href="https://data.louisvilleky.gov/dataset/employee-salary-data">  https://data.louisvilleky.gov/dataset/employee-salary-data </a> </h5>
+<hr>
+
+<div class="caption">
+<p> <u> Caption: </u>You can select a year to view how data differs over the years. Hover over any bar to see more details. Click on any bar to jump below to see the different jobs in each department and how much they make! Once you make that jump, you can hover over any circle to see the job name and how much they make. Hovering also updates the pie chart so you see where there income comes from (regular pay, overpay, etc). The larger the circle, the more money they make and the darker the color, the more people are employed at that particular position. </p>
+</div>
+
+<div id="overview_vis"> 
+<div id="year">
+    <form>
+			<u>Year</u>:
+      <label> <input type="radio" name="dataset" id="dataset" value="2008", checked> 2008</label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2009"> 2009 </label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2010"> 2010 </label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2011"> 2011 </label>
+			<br />
+      <label> <input type="radio" name="dataset" id="dataset" value="2012"> 2012 </label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2013"> 2013 </label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2014"> 2014 </label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2015">2015 </label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2016"> 2016 </label>
+      <label> <input type="radio" name="dataset" id="dataset" value="2017"> 2017 </label>
+    </form>
+</div>
+</div>
+
+<div class="wrapper">
+
+<div id="bubble_chart">
+
+</div>
+
+<div id="pie_chart">
+
+</div>
+
+</div>
+
+  <script src="d3/d3.min.js"> </script>
+  <script src="d3-tip.js"> </script>
+  <script src="vis3pie.js"> </script>
+  <script src="vis2bubble.js"> </script>
+  <script src="vis.js"> </script>
+	
+</body>
+</html>
